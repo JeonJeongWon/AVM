@@ -17,7 +17,7 @@ public class Body {
 	static JLabel imgLbl1,imgLbl2,imgLbl3;
 	static JTextField field;
 	static Food food[] = new Food[3];
-	static int currentMoeny,TotalPrice=0; // <<< 실 계산용 값들 입력하는 현재값(내는 돈)? .음식 총 가격 v v
+	static int currentMoeny,TotalPrice=0; // <<< 실 계산용 값들 입력하는 현재값(내는 돈)? .음식 총 가격 v v vv
 	static final int MaxSize=100; //음식의 최대 재고량
 	static String ReturnMoney;
 	public static void main(String[] args) {
